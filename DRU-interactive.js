@@ -258,21 +258,21 @@ if (reversed == null) { reversed = false; }
 		this.btn_frame.addEventListener("click", fl_ClickToGoToWebPage);
 		
 		function fl_ClickToGoToWebPage() {
-			window.open("https://datarobot-test.skilljar.com/page/frame-a-machine-learning-problem", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/frame-a-machine-learning-problem", "_top");
 		}
 		
 		/* Prepare a Dataset */
 		this.btn_prepare.addEventListener("click", fl_ClickToGoToWebPage_2);
 		
 		function fl_ClickToGoToWebPage_2() {
-			window.open("https://datarobot-test.skilljar.com/page/prepare-a-dataset", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/prepare-a-dataset", "_top");
 		}
 		
 		/*Build a Model*/
 		this.btn_build.addEventListener("click", fl_ClickToGoToWebPage_3);
 		
 		function fl_ClickToGoToWebPage_3() {
-			window.open("https://datarobot-test.skilljar.com/page/build-a-model", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/build-a-model", "_top");
 		}
 		
 		
@@ -280,7 +280,7 @@ if (reversed == null) { reversed = false; }
 		this.btn_choose.addEventListener("click", fl_ClickToGoToWebPage_4);
 		
 		function fl_ClickToGoToWebPage_4() {
-			window.open("https://datarobot-test.skilljar.com/page/choose-a-model", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/choose-a-model", "_top");
 		}
 		
 		/* Make Predictions */
@@ -288,7 +288,7 @@ if (reversed == null) { reversed = false; }
 		this.btn_predict.addEventListener("click", fl_ClickToGoToWebPage_5);
 		
 		function fl_ClickToGoToWebPage_5() {
-			window.open("https://datarobot-test.skilljar.com/page/make-predictions", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/make-predictions", "_top");
 		}
 		
 		
@@ -296,7 +296,7 @@ if (reversed == null) { reversed = false; }
 		this.btn_monitor.addEventListener("click", fl_ClickToGoToWebPage_6);
 		
 		function fl_ClickToGoToWebPage_6() {
-			window.open("https://datarobot-test.skilljar.com/page/monitor-optimize-maintain-models", "_self");
+			window.open("https://datarobot-test.skilljar.com/page/monitor-optimize-maintain-models", "_top");
 		}
 	}
 
